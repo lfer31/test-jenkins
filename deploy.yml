@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
        - name: nginx-test
-         image: flora-hub:5000/nginx-test:<tag>
+         image: flora-hub:5000/nginx-test:latest
          imagePullPolicy: Always 
          ports:
          - containerPort: 80
